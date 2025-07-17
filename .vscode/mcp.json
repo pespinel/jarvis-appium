@@ -1,0 +1,15 @@
+{
+	"servers": {
+		"jarvis-appium": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"dist/index.js"
+			],
+			"env": {
+				"CAPABILITIES_CONFIG": "/Users/id02914/Desktop/Repos/jarvis-appium/capabilities.json"
+			}
+		}
+	},
+	"inputs": []
+}

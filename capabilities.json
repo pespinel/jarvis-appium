@@ -1,10 +1,13 @@
 {
   "android": {
-    "appium:app": "/app/path"
+    "appium:platformVersion": "13.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:udid": "f3b31d4a"
   },
   "ios": {
-    "appium:deviceName": "iPhone 16 Pro",
-    "appium:platformVersion": "18.2",
-    "appium:udid": ""
+    "appium:platformVersion": "18.5",
+    "appium:automationName": "XCUITest",
+    "appium:udid": "00008101-001511213C10001E",
+    "appium:derivedDataPath": "/Users/id02914/Desktop/Repos/novum-tests/acceptance/resources/web_driver_agent"
   }
 }
